@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: #fff;
+    overflow: hidden;
+  }
+  
+  
+  
+  .text_center {
+    text-align: center;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    text-transform: uppercase;
+    color: #ffcc00;
+    text-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00, 0 0 30px #ffcc00;
+  }
+  
+  
+  .custum-form {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ffcc00, 0 0 10px #ffcc00, 0 0 15px #ffcc00;
+    height: 60px;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+    background-color: #111;
+    color: rgb(245, 245, 245);
+  }
+  
+  .input-and-btn {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custum-form input[type="text"] {
+    flex: 1;
+    width: 350px;
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    background-color: #111;
+    color :#ffffff;
+  }
+  
+  .custum-form button {
+    margin-left: 10px;
+    background-color: #800b0b;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Back button style (visible when editing) */
+  .back-btn {
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for buttons */
+  .custum-form button:hover,
+  .back-btn:hover {
+    background-color: #b30000;
+  }
+  
+ 
+  
+  /* Individual todo item style*/
+  .todo-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgb(255, 230, 0);
+    border-radius: 5px;
+    margin: 5px 0;
+    background-color: #111;
+    color: rgb(255, 255, 255);
+  }
+  
+
+  
+  .content {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .content input[type="checkbox"] {
+    margin-right: 10px;
+;
+  }
+  
+  .content p {
+    flex: 1;
+    margin: 0;
+    
+  }
+  
+  .actions-box {
+    display: flex;
+    
+  }
+  
+  .actions-box span {
+    margin-right: 10px;
+    cursor: pointer;
+    color:#ead5d5;
+  }
+  
+  .actions-box span:hover {
+    color: #0056b3;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+
+  
